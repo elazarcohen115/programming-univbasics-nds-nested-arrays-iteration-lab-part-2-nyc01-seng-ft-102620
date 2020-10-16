@@ -8,9 +8,9 @@ def find_min_in_nested_arrays(src)
       if src[outer][inner] < smallest
         smallest = src[outer][inner]
       end
-      smallest_array << smallest
       inner += 1
     end
+  smallest_array << smallest
   outer += 1
 
   end
